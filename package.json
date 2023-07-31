@@ -1,0 +1,31 @@
+{
+  "name": "goit-node.js-hw-01-contacts",
+  "version": "1.0.0",
+  "description": "Contact manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "Test",
+    "start": "node server",
+    "start:dev": "mpx nodeamon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maciejkudej/goit-node.js-hw-01-contacts.git"
+  },
+  "keywords": [
+    "contacts"
+  ],
+  "author": "Maciej Kudej",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maciejkudej/goit-node.js-hw-01-contacts/issues"
+  },
+  "homepage": "https://github.com/maciejkudej/goit-node.js-hw-01-contacts#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "shortid": "^2.2.16"
+  }
+}
